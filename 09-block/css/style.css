@@ -1,0 +1,179 @@
+*{
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: 'Arial';
+    src: url('../fonts/subset-ArialMT.eot');
+    src: url('../fonts/subset-ArialMT.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/subset-ArialMT.woff2') format('woff2'),
+        url('../fonts/subset-ArialMT.woff') format('woff'),
+        url('../fonts/subset-ArialMT.ttf') format('truetype'),
+        url('../fonts/subset-ArialMT.svg#ArialMT') format('svg');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Arial';
+    src: url('../fonts/subset-Arial-BoldMT.eot');
+    src: url('../fonts/subset-Arial-BoldMT.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/subset-Arial-BoldMT.woff2') format('woff2'),
+        url('../fonts/subset-Arial-BoldMT.woff') format('woff'),
+        url('../fonts/subset-Arial-BoldMT.ttf') format('truetype'),
+        url('../fonts/subset-Arial-BoldMT.svg#Arial-BoldMT') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+body {
+    font-family: 'Lato', sans-serif;
+}
+.background {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.07);
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    background-color: #e8ebf1;
+}
+.container {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.logo {
+    font-size: 50px;
+    line-height: 20px;
+    text-align: left;
+    color: #000000;
+    font-weight: 900;
+    margin-top: 36px;
+    float: left;
+    margin-bottom: 46px;
+}
+.logo-title {
+    color: #2aacc8;
+    font-weight: 400;
+}
+.nav {
+    float: right;
+    margin-top: 36px;
+}
+.clearfix {
+    clear: both;
+}
+.link {    
+    color: #000000;
+    font-size: 13px;
+    font-weight: 900;
+    line-height: 20px;
+    text-decoration: none;
+}
+.spec{
+    background-image: url(../img/down_arrow.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    padding: 2px;
+    width: 7px;
+    height: 5px;
+    margin-left: 6px;
+}
+.list-item {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 50px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+.dropdown {
+    overflow: hidden;
+    font-size: 13px; 
+}
+.dropbtn {
+    position: relative;
+    box-shadow:inset 0px 5px #2aacc8;
+}
+.dropdown .dropbtn {
+    font-size: 13px;  
+    outline: none;
+    padding: 14px 16px;
+    margin: 0;
+}
+.dropdown:hover .dropbtn {
+    background-color: #ffffff;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    color: #2aacc8;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color:#ffffff;
+    box-shadow: 0 5px 0 #2aacc8;
+    z-index: 1;
+    font-family: "Arial", sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    width: max-content;
+}
+.dropdown-content a {
+    float: none;
+    color: #000000;
+    padding: 12px 16px;
+    text-decoration: none;
+    border: 1px solid #e8ebf1;
+    display: block;
+    text-align: left;
+}
+.dropdown-content a:hover {
+    background-color:#ffffff;
+    color: #2aacc8;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.color.one {
+    background-color: #81e4ed;
+    width: 100%;
+    height: 500px;
+    text-align: center;
+}
+.cart.coffee {
+    background-position: right;
+    width: 1000px;
+    height: 440px;
+    box-shadow: inset 0 0 100px rgba(0, 0, 0, 0.12);
+    background-color: #e05936;
+    background-image: url(../img/Layer_4.png); 
+    background-repeat: no-repeat;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 23px;
+}
+.text.design {
+    color: #ffffff;
+    font-family: 'Lato', sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    margin-left: 61px;
+    margin-bottom: 119px;
+    margin-top: 102px;
+    text-align: left;
+    line-height: normal;
+}
+.cup {
+    float: right;
+    margin-right: 370px;
+}
+.btn {
+    display: inline-block;
+    vertical-align: top;
+}
+.checkbox {
+    margin-right: 16px;
+    color: #ffffff;
+    width: 15px;
+    height: 14px;
+    border-radius: 50%;
+    background-color: #626262;
+    opacity: 0.5;
+    border: none;
+    margin-top: 12px;
+}
